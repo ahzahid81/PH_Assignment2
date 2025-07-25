@@ -357,9 +357,10 @@ nav{
 #special{
     font-size: 3.1rem;
 }
+
 .challenge_Task{
-    width: 286px;
-    height: 286px;
+    max-width: 286px;
+    max-height: 286px;
     position: absolute;
     margin-left: 350px;
     margin-top: -145px;
