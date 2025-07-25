@@ -195,16 +195,11 @@ nav{
     margin-bottom: 130px;
 }
 
-.plants-lover-section img{
-    width: 100%;
-}
+
 
 
 /* Responsive */
  @media screen and (max-width: 576px) {
-    body{
-        padding: 0 16px;
-    }
     .no-responsive{
         display: none;
     }
@@ -213,6 +208,10 @@ nav{
     nav{
         margin-top: 13px;
         margin-bottom: 28px;
+    }
+
+    .plants-lover-section img{
+        width: 100%;
     }
 
     .banner-container{
