@@ -354,13 +354,29 @@ nav{
     border-radius: 5px;
     display: inline-block;
 }
+#special{
+    font-size: 3.1rem;
+}
+.challenge_Task{
+    width: 286px;
+    height: 286px;
+    position: absolute;
+    margin-left: 350px;
+    margin-top: -145px;
+    box-shadow: -4,10,4,0,rgba(0, 0, 0, 0.25);
+}
 
 /* Responsive */
  @media screen and (max-width: 576px) {
     .no-responsive{
         display: none;
     }
-
+    .latest-cards {
+    flex-direction: column;
+    }
+    .challenge_Task{
+        display: none;
+    }
   
     nav{
         margin-top: 13px;
