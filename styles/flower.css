@@ -195,6 +195,10 @@ nav{
     margin-bottom: 130px;
 }
 
+.plants-lover-section img{
+    width: 100%;
+}
+
 
 /* Responsive */
  @media screen and (max-width: 576px) {
