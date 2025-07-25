@@ -1,10 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 body{
     background-color: #F5F8FF;
     max-width: 1140px;
     margin: 0 auto;
+    padding: 0 1px;
 }
 
 /*Shared values*/
@@ -51,6 +57,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 
 }
 .nav-menus{
@@ -74,6 +81,7 @@ nav{
     justify-content: space-between;
     align-items: flex-end;
     margin-bottom: 118px;
+    flex-wrap: wrap;
 }
 
 .banner-content{
@@ -96,7 +104,12 @@ nav{
 }
 .banner-image{
     max-width: 570px;
+}
+
+.banner-image img{
     width: 100%;
+    height: auto;
+    display: block;
 }
 
 
@@ -115,5 +128,24 @@ nav{
     .banner-container{
         flex-direction: column-reverse;
         gap: 24px;
+        align-items: flex-start;
+        text-align: left;
+    }
+    
+    .banner-title {
+        font-size: 2.2rem;
+    }
+
+    .banner-description {
+        font-size: 1rem;
+    }
+
+    .nav-bar {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .banner-content, .banner-image {
+        width: 100%;
     }
  }
