@@ -80,7 +80,6 @@ nav{
     justify-content: space-between;
     align-items: flex-end;
     margin-bottom: 118px;
-    flex-wrap: wrap;
 }
 
 .banner-content{
@@ -108,7 +107,10 @@ nav{
 .banner-image img{
     width: 100%;
     height: auto;
-    display: block;
+}
+.card-image img{
+    width: 100%;
+    height: auto;
 }
 
  /* Plants section started */
@@ -149,7 +151,6 @@ nav{
     background-color: #E95A08;
     color: #FFFFFF;
     padding: 19px 50px;
-    gap: 10px;
     width: 100%;
     border: none;
     font-size: 1rem;
@@ -157,6 +158,41 @@ nav{
  }
 .plants-section{
     margin-bottom: 210px;
+}
+
+.plants-lover-section{
+    display: flex;
+    gap: 60px;
+}
+
+.lover-title{
+    font-size: 3.1rem;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.img-linear {
+  background-image: 
+    linear-gradient(rgba(103, 171, 234, 0.4), rgba(103, 171, 234, 0.4)),  /* 1st gradient */
+    linear-gradient(to right, rgba(233, 90, 8, 1), rgba(233, 90, 8, 1));
+}
+
+.li-list{
+    padding: 22px;
+}
+
+.li-list li{
+    margin-bottom: 20px;
+    font-size: 1.4rem;
+}
+
+.plants-lover-right{
+    width: 100%;
+    margin: auto 0;
+}
+
+.plants-lover-section{
+    margin-bottom: 130px;
 }
 
 
@@ -169,7 +205,7 @@ nav{
         display: none;
     }
 
-    /*Nav bar design*/
+  
     nav{
         margin-top: 13px;
         margin-bottom: 28px;
@@ -211,6 +247,14 @@ nav{
 
     .image-price, .image-title{
         font-size: 1rem;
+    }
+
+    .plants-lover-section{
+        flex-direction: column;
+    }
+
+    .card img{
+        width: 100%;
     }
 
  }
